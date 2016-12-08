@@ -1,4 +1,4 @@
-http://www.cnblogs.com/zhangjk1993/p/5035190.html
+﻿http://www.cnblogs.com/zhangjk1993/p/5035190.html
 
 
 https://github.com/zhangjikai/CodeSamples#bootstrap
@@ -12,3 +12,7 @@ https://github.com/liyifeng1994/ssm
 
 SpringMVC学习笔记
 http://www.cnblogs.com/Leo_wl/p/4556390.html
+
+idea配置 log4j
+http://www.cnblogs.com/Sinte-Beuve/p/5730572.html
+http://blog.csdn.net/huangpengbo2596/article/details/51850456
