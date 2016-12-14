@@ -16,3 +16,15 @@ http://www.cnblogs.com/Leo_wl/p/4556390.html
 idea配置 log4j
 http://www.cnblogs.com/Sinte-Beuve/p/5730572.html
 http://blog.csdn.net/huangpengbo2596/article/details/51850456
+
+jQuery file upload实现异步文件上传（带进度条）
+http://blog.csdn.net/wangtaoking1/article/details/50719160#comments
+http://getbootstrap.com/getting-started/#download
+jQuery+php实现ajax文件即时上传
+http://www.helloweba.com/view-blog-189.html
+Basic Usage Demo
+http://plugins.krajee.com/file-basic-usage-demo
+bootstrap 图片上传实例
+http://blog.csdn.net/primary_wind/article/details/41488029
+bootstrap中如何让响应式图片（img-responsive）水平居中
+http://www.cnblogs.com/tenderwx/p/6104612.html

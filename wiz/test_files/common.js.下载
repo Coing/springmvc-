@@ -1,0 +1,179 @@
+function getParentByFilter(node, filterFn) {
+    if (!filterFn) {
+        return node;
+    }
+    if (node && !(node == document.body)) {
+        while (node) {
+            if (filterFn(node)) {
+                return node;
+            }
+            if (node == document.body) {
+                return null;
+            }
+            node = node.parentNode;
+        }
+    }
+    return null;
+}
+
+function checkOs() {
+    var userAgent = navigator.userAgent.toLowerCase();
+    var os_type;
+    var uaPlat = {
+        'Windows': /windows/.test(userAgent) && !/phone/.test(userAgent),
+        'Mac': /mac/.test(userAgent) && !/iphone/.test(userAgent) && !/ipad/.test(userAgent),
+        'Linux': /linux/.test(userAgent) && !/android/.test(userAgent),
+        'iPhone': /iphone/.test(userAgent),
+        'Android': /android/.test(userAgent),
+        'iPad': /ipad/.test(userAgent)
+    };
+    for (var i in uaPlat) {
+        if (uaPlat[i] === true) {
+            os_type = i;
+            return os_type;
+        }
+    }
+    return 'default';
+}
+var clientType = checkOs();
+
+function search(isSelf) {
+    if (isSelf) {
+        location.href = "http://www.wiz.cn/index.php?s=" + encodeURIComponent(document.getElementById("support-search-value").value);
+    } else {
+        window.open("http://www.wiz.cn/index.php?s=" + encodeURIComponent(document.getElementById("navbar-nav-search-value").value));
+    }
+}
+
+document.onkeydown = function (event) {
+    var e = event || window.event;
+    var activeElement = document.activeElement, isSelf;
+    if (e && e.keyCode == 13 && (activeElement.id == "navbar-nav-search-value" || activeElement.id == "support-search-value")) {
+        isSelf = activeElement.id == "support-search-value";
+        search(isSelf);
+    }
+};
+
+(function () {
+    if (clientType == "iPhone" || clientType == "Android" || clientType == "iPad") {
+
+        var ua = window.navigator.userAgent.toLowerCase();
+        if (ua.match(/MicroMessenger/i) == 'micromessenger') {
+            document.addEventListener("touchmove", scroll);
+        }
+        document.onscroll = scroll;
+        document.addEventListener("touchend", function (event) {
+            var src = event.target || event.srcElement;
+            var btn = getParentByFilter(src, function (node) {
+                return (" " + node.className + " ").indexOf("navbar-toggle") > -1;
+            });
+            var link = getParentByFilter(src, function (node) {
+                return (" " + node.className + " ").indexOf("navbar-nav-link") > -1;
+            });
+            var nav = document.querySelector(".navbar");
+            if (btn && btn.className.indexOf("navbar-login") < 0) {
+                if (nav.className.indexOf("show") < 0) {
+                    nav.className = nav.className + " show";
+                    nav.className = nav.className + " navbar-white";
+                }
+                else {
+                    nav.className = nav.className.replace(" show", "");
+                    nav.className = nav.className.replace(" navbar-white", "");
+                }
+            }
+            else {
+                nav.className = nav.className.replace(" show", "");
+                if (document.body.scrollTop <= 0) {
+                    nav.className = nav.className.replace(" navbar-white", "");
+                }
+                if (link) {
+                    location.href = link.href;
+                }
+            }
+        });
+    }
+    else {
+
+
+        if(document.body.attachEvent)
+        {
+            document.body.attachEvent("onclick", function (event) {
+                var src = event.target || event.srcElement;
+                var btn = getParentByFilter(src, function (node) {
+                    return (" " + node.className + " ").indexOf("navbar-toggle") > -1;
+                });
+                var nav = document.querySelector(".navbar");
+                if (btn && btn.className.indexOf("navbar-login") < 0) {
+                    if (nav.className.indexOf("show") < 0) {
+                        nav.className = nav.className + " show";
+                        nav.className = nav.className + " navbar-white";
+                    }
+                    else {
+                        nav.className = nav.className.replace(" show", "");
+                        nav.className = nav.className.replace(" navbar-white", "");
+                    }
+                }
+                else {
+                    nav.className = nav.className.replace(" show", "");
+                    if (document.body.scrollTop <= 0 && document.documentElement.scrollTop <= 0) {
+                        nav.className = nav.className.replace(" navbar-white", "");
+                    }
+                }
+            });
+        }
+        else
+        {
+            document.body.addEventListener("click", function (event) {
+                var src = event.target || event.srcElement;
+                var btn = getParentByFilter(src, function (node) {
+                    return (" " + node.className + " ").indexOf("navbar-toggle") > -1;
+                });
+                var nav = document.querySelector(".navbar");
+                if (btn && btn.className.indexOf("navbar-login") < 0) {
+                    if (nav.className.indexOf("show") < 0) {
+                        nav.className = nav.className + " show";
+                        nav.className = nav.className + " navbar-white";
+                    }
+                    else {
+                        nav.className = nav.className.replace(" show", "");
+                        nav.className = nav.className.replace(" navbar-white", "");
+                    }
+                }
+                else {
+                    nav.className = nav.className.replace(" show", "");
+                    if (document.body.scrollTop <= 0 && document.documentElement.scrollTop <= 0) {
+                        nav.className = nav.className.replace(" navbar-white", "");
+                    }
+                }
+            });
+
+        }
+
+
+
+
+        document.onscroll = scroll;
+    }
+    function scroll() {
+        var t = document.documentElement.scrollTop || document.body.scrollTop;
+        var nav = document.querySelector(".navbar");
+        if (t < 0) {
+            var opacityValue = t > -44 ? t : -43;
+            nav.setAttribute("style", "opacity:" + (opacityValue + 44) / 44);
+        }
+        else if (t == 0) {
+            if (document.querySelector(".navbar").className.indexOf("show") < 0) {
+                nav.className = nav.className.replace(" navbar-white", "");
+            }
+        }
+        else {
+            if (nav.className.indexOf("navbar-white") < 0) {
+                nav.className = nav.className + " navbar-white";
+            }
+        }
+    }
+})();
+
+
+
+
