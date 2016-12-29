@@ -28,3 +28,11 @@ bootstrap 图片上传实例
 http://blog.csdn.net/primary_wind/article/details/41488029
 bootstrap中如何让响应式图片（img-responsive）水平居中
 http://www.cnblogs.com/tenderwx/p/6104612.html
+
+ansible
+ansible学习， 比较详细
+http://sapser.github.io/ansible/2014/07/22/ansible-using-lookups
+ansible 一些进阶，比如指定执行一些tag
+http://www.ibm.com/developerworks/cn/linux/1608_lih_ansible/index.html#ibm-pcon
+Ansible中的tags使用
+http://unixman.blog.51cto.com/10163040/1674198
