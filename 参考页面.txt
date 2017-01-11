@@ -36,3 +36,5 @@ ansible 一些进阶，比如指定执行一些tag
 http://www.ibm.com/developerworks/cn/linux/1608_lih_ansible/index.html#ibm-pcon
 Ansible中的tags使用
 http://unixman.blog.51cto.com/10163040/1674198
+使用Pycharm进行Python远程开发
+http://blog.tpircsboy.com/tech/pycharm_remote_development/
