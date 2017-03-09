@@ -40,3 +40,5 @@ http://unixman.blog.51cto.com/10163040/1674198
 http://blog.tpircsboy.com/tech/pycharm_remote_development/
 docker学习笔记(k8s)
 http://violetgo.com/blogs/
+leetcode 解题
+http://bookshadow.com/weblog/2016/11/13/leetcode-repeated-substring-pattern/
