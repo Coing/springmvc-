@@ -42,3 +42,5 @@ docker学习笔记(k8s)
 http://violetgo.com/blogs/
 leetcode 解题
 http://bookshadow.com/weblog/2016/11/13/leetcode-repeated-substring-pattern/
+Java注解（Annotation）原理详解
+http://blog.csdn.net/lylwo317/article/details/52163304
