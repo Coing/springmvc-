@@ -44,3 +44,6 @@ leetcode 解题
 http://bookshadow.com/weblog/2016/11/13/leetcode-repeated-substring-pattern/
 Java注解（Annotation）原理详解
 http://blog.csdn.net/lylwo317/article/details/52163304
+
+spark学习参考
+http://www.cnblogs.com/charlotte77/p/6178699.html
