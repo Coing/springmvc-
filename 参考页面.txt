@@ -55,3 +55,10 @@ spring security之用户 权限 url存储在数据库
 http://www.cnblogs.com/visoncheng/p/3335768.html
 spring security 原理学习
 http://www.cnblogs.com/quyixuanblog/p/5213503.html
+
+log4j2【2.3】入门学习与总结
+http://blog.csdn.net/u010201484/article/details/51723455#一log4j2-配置文件加载
+log4j, log4j2 实用配置；log4j 2 异步配置
+http://blog.csdn.net/caib1109/article/details/51407091#log4j2
+从零开始玩转logback
+http://www.importnew.com/22290.html
