@@ -62,3 +62,5 @@ log4j, log4j2 实用配置；log4j 2 异步配置
 http://blog.csdn.net/caib1109/article/details/51407091#log4j2
 从零开始玩转logback
 http://www.importnew.com/22290.html
+zk选主
+https://my.oschina.net/lenglingx/blog/902278
