@@ -64,3 +64,5 @@ http://blog.csdn.net/caib1109/article/details/51407091#log4j2
 http://www.importnew.com/22290.html
 zk选主
 https://my.oschina.net/lenglingx/blog/902278
+从Spring Security 3.x 到 4.x的迁移指南
+https://github.com/spring-projects/spring-security-migrate-3-to-4/compare/xml
