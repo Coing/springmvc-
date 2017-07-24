@@ -66,3 +66,6 @@ zk选主
 https://my.oschina.net/lenglingx/blog/902278
 从Spring Security 3.x 到 4.x的迁移指南
 https://github.com/spring-projects/spring-security-migrate-3-to-4/compare/xml
+
+学习ZooKeeper的用法: 文章汇总
+https://github.com/smallnest/ZKRecipesByExample
