@@ -69,6 +69,8 @@ https://github.com/spring-projects/spring-security-migrate-3-to-4/compare/xml
 
 学习ZooKeeper的用法: 文章汇总
 https://github.com/smallnest/ZKRecipesByExample
+基于zookeeper简单实现分布式锁
+http://blog.csdn.net/desilting/article/details/41280869
 
 tomcat源码分析
 https://yq.aliyun.com/articles/20169?spm=5176.100239.blogcont20172.8.olnoZ0
