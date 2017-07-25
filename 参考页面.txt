@@ -73,6 +73,8 @@ https://github.com/smallnest/ZKRecipesByExample
 http://blog.csdn.net/desilting/article/details/41280869
 使用Curator操作ZooKeeper
 http://www.cnblogs.com/haoxinyue/p/6561896.html
+zookeeper分布式锁
+http://www.cnblogs.com/dennyzhangdd/p/6257335.html
 
 tomcat源码分析
 https://yq.aliyun.com/articles/20169?spm=5176.100239.blogcont20172.8.olnoZ0
