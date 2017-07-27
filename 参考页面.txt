@@ -98,3 +98,5 @@ http://blog.csdn.net/puma_dong/article/details/11564309
 
 spring security的原理及教程
 http://www.importnew.com/20612.html
+git 教程
+http://backlogtool.com/git-guide/cn/
