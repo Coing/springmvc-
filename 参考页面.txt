@@ -95,3 +95,6 @@ SSO CAS单点系列
 http://www.imooc.com/u/2245641/articles
 https://github.com/apereo
 http://blog.csdn.net/puma_dong/article/details/11564309
+
+spring security的原理及教程
+http://www.importnew.com/20612.html
