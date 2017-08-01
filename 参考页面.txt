@@ -103,3 +103,5 @@ http://backlogtool.com/git-guide/cn/
 
 redis源码分析
 http://blog.csdn.net/gqtcgq/article/details/50116333
+在CentOS7上使用二进制方式部署Kubernetes
+https://o-my-chenjian.com/2017/04/25/Deploy-K8s-By-Source-Code-On-CentOS7/
