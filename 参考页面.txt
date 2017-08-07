@@ -116,3 +116,7 @@ http://blog.csdn.net/readiay/article/details/53538085
 
 draw.io
 画图在线
+
+数据结构
+kmp理解
+http://www.cnblogs.com/SYCstudio/p/7194315.html
