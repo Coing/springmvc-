@@ -122,3 +122,6 @@ kmp理解
 http://www.cnblogs.com/SYCstudio/p/7194315.html
 一步一步从二叉查找树学到红黑树
 http://blog.csdn.net/liangbopirates/article/details/9844819?utm_source=tuicool
+
+elk搭建
+http://blog.csdn.net/mchdba/article/details/52132663
