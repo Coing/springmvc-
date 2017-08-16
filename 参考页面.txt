@@ -128,3 +128,6 @@ http://blog.csdn.net/mchdba/article/details/52132663
 
 SSO之CAS单点登录详细搭建教程
 http://www.cnblogs.com/zhoubang521/p/5200407.html
+
+aop理解
+https://my.oschina.net/huangyong/blog/161338
