@@ -132,9 +132,13 @@ http://www.cnblogs.com/zhoubang521/p/5200407.html
 aop理解
 https://my.oschina.net/huangyong/blog/161338
 
+saml
 https://www.codeproject.com/Articles/746569/Sharing-Experience-of-SSO-Integration-via-SAML-Res
 http://blog.csdn.net/xiangguiwang/article/details/66476171
 http://blog.csdn.net/liu4071325/article/details/59045436
 https://github.com/salesforceidentity/java-saml-sp
 https://maniagnosis.crsr.net/2010/10/saml2-servlet-filter.html
 http://blog.csdn.net/csethcrm/article/details/20694993
+
+使用kubeadm安装kubernetes1.7
+http://blog.csdn.net/zhuchuangang/article/details/76572157
