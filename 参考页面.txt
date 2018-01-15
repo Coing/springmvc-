@@ -148,3 +148,6 @@ http://www.cnblogs.com/polk6/p/3185692.html
 
 Find which assembly instruction caused an Illegal Instruction error without debugging
 https://stackoverflow.com/questions/10354147/find-which-assembly-instruction-caused-an-illegal-instruction-error-without-debu
+
+JS原型链简单图解
+https://www.cnblogs.com/libin-1/p/5820550.html
