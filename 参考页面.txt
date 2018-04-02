@@ -151,3 +151,6 @@ https://stackoverflow.com/questions/10354147/find-which-assembly-instruction-cau
 
 JS原型链简单图解
 https://www.cnblogs.com/libin-1/p/5820550.html
+
+hadoop系列三:mapreduce的使用(一)
+https://www.cnblogs.com/zhuxiaojie/p/7224772.html
