@@ -161,5 +161,6 @@ https://blog.csdn.net/javazejian/article/details/72772461
 《深入理解java虚拟机》String.intern()探究
 https://blog.csdn.net/w605283073/article/details/72753494
 https://www.cnblogs.com/Kidezyq/p/8040338.html
-String + 
+深入理解Java中的String   “String+变量”
 https://zhidao.baidu.com/question/570999352.html
+https://www.cnblogs.com/xiaoxi/p/6036701.html
