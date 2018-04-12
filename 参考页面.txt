@@ -154,3 +154,6 @@ https://www.cnblogs.com/libin-1/p/5820550.html
 
 hadoop系列三:mapreduce的使用(一)
 https://www.cnblogs.com/zhuxiaojie/p/7224772.html
+
+全面理解Java内存模型(JMM)及volatile关键字
+https://blog.csdn.net/javazejian/article/details/72772461
