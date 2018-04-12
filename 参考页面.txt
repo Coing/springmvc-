@@ -157,3 +157,9 @@ https://www.cnblogs.com/zhuxiaojie/p/7224772.html
 
 全面理解Java内存模型(JMM)及volatile关键字
 https://blog.csdn.net/javazejian/article/details/72772461
+
+《深入理解java虚拟机》String.intern()探究
+https://blog.csdn.net/w605283073/article/details/72753494
+https://www.cnblogs.com/Kidezyq/p/8040338.html
+String + 
+https://zhidao.baidu.com/question/570999352.html
