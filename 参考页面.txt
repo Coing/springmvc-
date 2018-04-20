@@ -164,3 +164,6 @@ https://www.cnblogs.com/Kidezyq/p/8040338.html
 深入理解Java中的String   “String+变量”
 https://zhidao.baidu.com/question/570999352.html
 https://www.cnblogs.com/xiaoxi/p/6036701.html
+
+聊聊同步、异步、阻塞与非阻塞
+https://www.jianshu.com/p/aed6067eeac9
