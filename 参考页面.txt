@@ -175,3 +175,5 @@ Java并发编程：Synchronized及其实现原理
 http://www.cnblogs.com/paddix/p/5367116.html
 浅议tomcat与classloader
 https://blog.csdn.net/liweisnake/article/details/8470285
+选择Jersey+jetty原因
+https://www.cnblogs.com/whzhaochao/p/5023404.html
