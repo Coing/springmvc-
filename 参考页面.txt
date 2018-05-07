@@ -177,3 +177,5 @@ http://www.cnblogs.com/paddix/p/5367116.html
 https://blog.csdn.net/liweisnake/article/details/8470285
 选择Jersey+jetty原因
 https://www.cnblogs.com/whzhaochao/p/5023404.html
+Disruptor的使用
+http://www.cnblogs.com/hupengcool/p/4196965.html
