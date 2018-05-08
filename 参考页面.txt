@@ -181,3 +181,5 @@ Disruptor的使用
 http://www.cnblogs.com/hupengcool/p/4196965.html
 Disruptor并发框架（一）简介&上手demo
 https://www.cnblogs.com/jiangjun-x/p/8111315.html
+怎样在 MySQL 表中存储树形结构数据？
+https://www.zhihu.com/question/20417447
