@@ -191,3 +191,6 @@ https://stackoverflow.com/questions/3916191/download-data-url-file
 http://www.importnew.com/22039.html
 Spring总结以及在面试中的一些问题.
 http://www.cnblogs.com/wang-meng/p/5701982.html
+
+使用Flume+Kafka+SparkStreaming进行实时日志分析  待实践
+https://blog.csdn.net/trigl/article/details/70237981
